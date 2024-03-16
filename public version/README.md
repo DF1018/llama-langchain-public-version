@@ -33,10 +33,6 @@ langchain_llama
     Dockerfile  
     requirement.txt  
 ```
-# llama的model 可以去DELL 或 4060的studio的server 那邊拿
-DELL(Dell7920) ------ /mnt/hdd1_4t/james_df/langchain/models  
-4060(PC0137) ------ /mnt/sda1/DF/llama_chain/models
-
 
 # llama model選用
 我是用了  
@@ -46,9 +42,6 @@ DELL(Dell7920) ------ /mnt/hdd1_4t/james_df/langchain/models
 
 ### 7B比較輕量 一開始預備初始化會比較快 跟 推理會比較快 當然回答精準度不夠好 應該是原作者預訓練不夠多 導致LLM的中文理解能力不夠好
 ### 13B是比較吃空間大 一開始預備初始化比較慢 跟 推理會比較7B慢一點點 當然回答精準度比7B好一點點
-
-### 整個llama串LangChain的測試結果  
-### 可以去看[llama_13B_0109的工作表](https:docs.google.com/spreadsheets/d/1ETke4eM1ES3cMuZkhhKGG2xeGW2ak4ZnfhChsl7A4J0/edit?usp=sharing)
 
 
 ## 目前(2024/01/08)  
@@ -76,8 +69,7 @@ DELL(Dell7920) ------ /mnt/hdd1_4t/james_df/langchain/models
 [Speed too slow](https:github.com/ggerganov/llama.cpp/issues/2444)
 
 我自己也試用cpp的程式 也可能是我寫不對 所以執行速度可能有點奇怪  
-可以看我的程式碼  
-[**llama_cpp.py**](script/llama_cpp.py)
+
 
 # 在embeddings的向量庫方面 我用了  
 [Chroma向量数据库完全手册](https:medium.com/@lemooljiang/chroma%E5%90%91%E9%87%8F%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%8C%E5%85%A8%E6%89%8B%E5%86%8C-4248b15679ea)
