@@ -34,6 +34,7 @@ langchain_llama
     requirement.txt  
 ```
 
+
 # llama model選用
 我是用了  
 ### [yentinglin/Taiwan-LLM-13B-v2.0-chat](https:huggingface.co/yentinglin/Taiwan-LLM-13B-v2.0-chat)  
@@ -69,7 +70,6 @@ langchain_llama
 [Speed too slow](https:github.com/ggerganov/llama.cpp/issues/2444)
 
 我自己也試用cpp的程式 也可能是我寫不對 所以執行速度可能有點奇怪  
-
 
 # 在embeddings的向量庫方面 我用了  
 [Chroma向量数据库完全手册](https:medium.com/@lemooljiang/chroma%E5%90%91%E9%87%8F%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AE%8C%E5%85%A8%E6%89%8B%E5%86%8C-4248b15679ea)
